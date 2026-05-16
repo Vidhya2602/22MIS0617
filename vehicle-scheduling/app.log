@@ -1,0 +1,11 @@
+2026-05-16T10:15:42.114Z - Server started
+2026-05-16T10:16:00.315Z - Fetching depots
+2026-05-16T10:16:00.487Z - Error: Request failed with status code 401
+2026-05-16T10:20:03.684Z - Server started
+2026-05-16T10:20:14.142Z - Attempting depot API
+2026-05-16T10:20:14.328Z - Depot API unavailable. Using fallback data.
+2026-05-16T10:20:14.329Z - Attempting vehicle API
+2026-05-16T10:20:14.422Z - Vehicle API unavailable. Using fallback data.
+2026-05-16T10:20:14.423Z - Processing Depot 1
+2026-05-16T10:20:14.426Z - Processing Depot 2
+2026-05-16T10:20:14.427Z - Scheduling completed

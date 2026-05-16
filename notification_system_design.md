@@ -18,7 +18,6 @@ To fully support the frontend requirements for logged-in students, the backend n
 *   **Headers:**
     *   `Authorization: Bearer <JWT_TOKEN>`
     *   `Accept: application/json`
-*   **Description:** Retrieves all notifications targeted at the authenticated student context.
 *   **Response (Status Code: 200 OK):**
 ```json
 {
@@ -31,19 +30,8 @@ To fully support the frontend requirements for logged-in students, the backend n
         "message": "CSX Corporation hiring process has been initiated.",
         "isRead": false,
         "timestamp": "2026-04-22T17:51:18Z"
-      },
-      {
-        "id": "81589ada-8ad3-4f77-9554-f52fb558e09d",
-        "type": "Event",
-        "message": "Farewell registrations closing tonight.",
-        "isRead": true,
-        "timestamp": "2026-04-22T17:51:06Z"
       }
     ],
-    "pagination": {
-      "currentPage": 1,
-      "pageSize": 10,
-      "totalUnread": 1
-    }
+    "pagination": { "currentPage": 1, "pageSize": 10, "totalUnread": 1 }
   }
 }
